@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "mint_blender_asset_browser"
+version = "0.1.0"
+name = "Mint Asset Browser"
+tagline = "Browse and import your Mint AI generated assets"
+maintainer = "Mint <hello@mint.gg>"
+type = "add-on"
+website = "https://mint.gg"
+tags = ["Import-Export"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Mint"]
+
+[permissions]
+network = "Authenticate with Mint to access your assets"
+files = "Cache downloaded GLB and PLY files for repeat imports"

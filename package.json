@@ -1,0 +1,23 @@
+{
+  "name": "mint-blender-addon",
+  "version": "0.1.0",
+  "description": "Browse and import your Mint AI generated assets",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "build": "python3 scripts/package_extension.py",
+    "lint": "python3 -m compileall -q mint_blender_asset_browser tests scripts",
+    "type-check": "python3 -m compileall -q mint_blender_asset_browser tests scripts",
+    "test": "python3 -m unittest discover -s tests -p '*_test.py'",
+    "package": "python3 scripts/package_extension.py",
+    "validate": "python3 scripts/validate_extension.py",
+    "validate:blender": "python3 scripts/validate_extension.py --blender"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamg/mint-blender-addon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tamg/mint-blender-addon/issues"
+  },
+  "homepage": "https://mint.gg"
+}
