@@ -6,19 +6,10 @@ The Mint add-on adds a small Mint panel to Blender's 3D View sidebar. After you
 connect your Mint account, you can browse your generated models, worlds, and
 asset packs, then import supported assets into the current Blender scene.
 
-## What It Does
-
-- Lists your Mint models, worlds, and asset packs
-- Imports durable Mint GLB models into Blender
-- Opens assets back in Mint
-- Shows Mint world splats through Kiri Engine 3DGS Render when Kiri is installed
-- Caches downloaded assets locally so repeat imports are faster
-
 ## Requirements
 
 - Blender 4.2 or newer
 - A Mint account: https://mint.gg
-- Internet access for sign-in and asset downloads
 - Kiri Engine 3DGS Render for viewing Mint world splats:
   https://github.com/Kiri-Innovation/3dgs-render-blender-addon
 
