@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tamg/mint-blender-addon.git"
+    "url": "git+https://github.com/mintdotgg/mint-blender-addon.git"
   },
   "bugs": {
-    "url": "https://github.com/tamg/mint-blender-addon/issues"
+    "url": "https://github.com/mintdotgg/mint-blender-addon/issues"
   },
   "homepage": "https://mint.gg"
 }

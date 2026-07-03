@@ -18,11 +18,26 @@ Kiri.
 
 ## Install
 
-1. Download the Mint Blender add-on zip.
+1. Download the latest Mint Blender add-on `.zip` from the
+   [Mint Blender add-on releases page](https://github.com/mintdotgg/mint-blender-addon/releases).
 2. In Blender, open `Edit > Preferences > Add-ons`.
-3. Click the install button and choose the zip file.
-4. Enable `Mint Asset Browser`.
-5. Open the 3D View sidebar and select the `Mint` tab.
+3. Drag the downloaded `.zip` into the Add-ons window.
+4. Click `Install` when Blender prompts you.
+5. Enable `Mint Asset Browser`.
+6. Open the 3D View sidebar and select the `Mint` tab. If the sidebar is
+   hidden, press `N` to show it.
+
+## Install Kiri for World Splats
+
+World splats require the Kiri Engine 3DGS Render add-on. If you only import GLB
+models, you can skip this section.
+
+1. Download the latest Kiri Engine 3DGS Render `.zip` from the
+   [Kiri Engine 3DGS Render releases page](https://github.com/Kiri-Innovation/3dgs-render-blender-addon/releases).
+2. In Blender, open `Edit > Preferences > Add-ons`.
+3. Drag the downloaded `.zip` into the Add-ons window.
+4. Click `Install` when Blender prompts you.
+5. Enable `Kiri Engine 3DGS Render`.
 
 ## Use
 
@@ -46,7 +61,8 @@ current viewport.
 
 ## Troubleshooting
 
-- If world rows say `Kiri required`, install and enable the Kiri add-on.
+- If world rows say `Kiri required`, install and enable Kiri Engine 3DGS Render,
+  then try `View Splat` again.
 - If sign-in fails, log out and connect again.
 - If a model says `No durable GLB yet`, that asset does not currently have an
   import-ready GLB.
